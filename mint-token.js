@@ -34,7 +34,7 @@ import { createMint, TOKEN_PROGRAM_ID } from "@solana/spl-token";
         undefined,
         TOKEN_PROGRAM_ID
     );
-    console.log("Token mint pub address:", tokenMintAddress.publicKey.toBase58());
+    console.log("Token mint pub address:", tokenMintAddress);
     console.log("tokenMintAccountKp Pub Address:", tokenMintAddress.publicKey.toBase58());
     console.log("fee payer pub address:", feePayer.publicKey.toBase58());
 })();
